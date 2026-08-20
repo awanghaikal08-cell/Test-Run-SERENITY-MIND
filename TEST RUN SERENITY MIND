@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SerenityMind | Tenangkan Minda, Pulihkan Jiwa</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- ============================= -->
+<!-- PASSWORD SCREEN -->
+<!-- ============================= -->
+
+<div id="passwordScreen" class="password-screen">
+
+    <div class="password-box">
+
+        <div class="lock-icon">🔐</div>
+
+        <h1>SERENITYMIND</h1>
+
+        <p class="password-title">
+            Akses Terhad
+        </p>
+
+        <p>
+            Sila masukkan kata laluan untuk mengakses
+            laman inovasi SerenityMind.
+        </p>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Masukkan kata laluan"
+            autocomplete="off"
+        >
+
+        <button onclick="checkPassword()">
+            🔓 Akses SerenityMind
+        </button>
+
+        <p id="passwordError"></p>
+
+    </div>
+
+</div>
+
+
+<!-- ============================= -->
+<!-- WEBSITE UTAMA -->
+<!-- ============================= -->
+
+<div id="websiteContent" class="hidden">
+
+
+<!-- HEADER -->
+
+<header>
+
+    <h1>SERENITYMIND</h1>
+
+    <p>Tenangkan Minda, Pulihkan Jiwa</p>
+
+</header>
+
+
+<!-- NAVIGATION -->
+
+<nav>
+
+    <a href="#home">Utama</a>
+
+    <a href="#manual">
+        Manual Pengguna
+    </a>
+
+    <a href="#hipnoterapi">
+        Hipnoterapi
+    </a>
+
+    <a href="#about">
+        Tentang Kami
+    </a>
+
+    <a href="#contact">
+        Hubungi
+    </a>
+
+</nav>
+
+
+<!-- ============================= -->
+<!-- HERO / UTAMA -->
+<!-- ============================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-label">
+            INOVASI HIPNOTERAPI DIGITAL
+        </p>
+
+        <h2>
+            Selamat Datang ke SerenityMind
+        </h2>
+
+        <p>
+            SerenityMind merupakan inovasi hipnoterapi digital
+            yang membantu individu mencapai ketenangan minda,
+            mengurangkan tekanan serta meningkatkan kesejahteraan
+            emosi melalui sesi audio relaksasi.
+        </p>
+
+        <a href="#hipnoterapi" class="hero-button">
+            🎧 Mulakan Sesi
+        </a>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <img
+            src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200"
+            alt="Meditasi dan ketenangan minda"
+        >
+
+    </div>
+
+</section>
+
+
+<!-- ============================= -->
+<!-- MANUAL PENGGUNA -->
+<!-- ============================= -->
+
+<section id="manual">
+
+    <div class="section-heading">
+
+        <p>MANUAL PENGGUNA</p>
+
+        <h2>
+            📖 Cara Menggunakan SerenityMind
+        </h2>
+
+        <p>
+            Ikuti langkah berikut untuk mendapatkan pengalaman
+            penggunaan SerenityMind yang optimum.
+        </p>
+
+    </div>
+
+
+    <div class="manual-box">
+
+
+        <h3>
+            Langkah 1: Akses Laman Sesawang SerenityMind
+        </h3>
+
+        <ul>
+
+            <li>
+                Buka pelayar internet pada telefon pintar,
+                tablet atau komputer.
+            </li>
+
+            <li>
+                Masukkan pautan laman sesawang SerenityMind.
+            </li>
+
+            <li>
+                Halaman utama SerenityMind akan dipaparkan.
+            </li>
+
+        </ul>
+
+
+        <h3>
+            Langkah 2: Pilih Tempat yang Selesa dan Tenang
+        </h3>
+
+        <ul>
+
+            <li>
+                Cari lokasi yang selesa, tenang dan bebas
+                daripada gangguan.
+            </li>
+
+            <li>
+                Duduk atau baring dalam keadaan yang selesa.
+            </li>
+
+            <li>
+                Pastikan persekitaran sesuai untuk memberi
+                tumpuan kepada sesi terapi audio.
+            </li>
+
+            <li>
+                Digalakkan menggunakan fon telinga atau
+                headphone bagi mendapatkan pengalaman yang lebih baik.
+            </li>
+
+        </ul>
+
+
+        <h3>
+            Langkah 3: Pilih Tema Audio
+        </h3>
+
+        <ul>
+
+            <li>
+                Kerjaya dan Masa Depan
+            </li>
+
+            <li>
+                Sosial
+            </li>
+
+            <li>
+                Kewangan, Keadaan Kehidupan dan Pekerjaan
+            </li>
+
+        </ul>
+
+
+        <h3>
+            Langkah 4: Mulakan Sesi Terapi Audio
+        </h3>
+
+        <ul>
+
+            <li>
+                Tekan butang "Main" (Play) pada audio yang dipilih.
+            </li>
+
+            <li>
+                Pejamkan mata dan fokus kepada suara serta mesej
+                yang disampaikan.
+            </li>
+
+            <li>
+                Dengar audio sehingga tamat tanpa gangguan.
+            </li>
+
+        </ul>
+
+
+        <h3>
+            Langkah 5: Hayati dan Praktikkan Mesej Positif
+        </h3>
+
+        <ul>
+
+            <li>
+                Beri perhatian kepada kata-kata motivasi dan
+                afirmasi positif yang didengari.
+            </li>
+
+            <li>
+                Hayati mesej yang disampaikan dan kaitkan
+                dengan situasi diri sendiri.
+            </li>
+
+            <li>
+                Amalkan pemikiran positif yang dipelajari
+                dalam kehidupan harian.
+            </li>
+
+        </ul>
+
+
+        <h3>
+            Langkah 6: Refleksi Kendiri
+        </h3>
+
+        <ul>
+
+            <li>
+                Setelah sesi selesai, luangkan beberapa minit
+                untuk menilai perasaan dan keadaan diri.
+            </li>
+
+            <li>
+                Kenal pasti perubahan emosi, tahap ketenangan
+                dan motivasi yang dirasai.
+            </li>
+
+            <li>
+                Ulang penggunaan audio mengikut keperluan
+                atau secara berkala untuk mendapatkan manfaat
+                yang optimum.
+            </li>
+
+        </ul>
+
+
+        <!-- PERINGATAN -->
+
+        <div class="peringatan">
+
+            <h3>
+                ⚠️ Peringatan
+            </h3>
+
+            <p>
+                SerenityMind merupakan alat sokongan kesejahteraan
+                emosi dan bukan pengganti rawatan profesional.
+            </p>
+
+            <p>
+                Sekiranya mengalami tekanan emosi yang serius atau
+                berpanjangan, pengguna disarankan mendapatkan bantuan
+                daripada kaunselor atau pakar yang bertauliah.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ============================= -->
+<!-- HIPNOTERAPI -->
+<!-- ============================= -->
+
+<section id="hipnoterapi">
+
+    <div class="section-heading">
+
+        <p>SESI AUDIO</p>
+
+        <h2>
+            🎧 Sesi Hipnoterapi
+        </h2>
+
+        <p>
+            Dengar audio hipnoterapi yang direka khas untuk membantu
+            anda merehatkan fikiran, mengawal tekanan dan meningkatkan
+            fokus diri.
+        </p>
+
+    </div>
+
+
+    <div class="audio-container">
+
+
+        <!-- AUDIO 1 -->
+
+        <div class="audio-card">
+
+            <div class="audio-icon">
+                💼
+            </div>
+
+            <h3>
+                Masalah Kejayaan dan Masa Depan
+            </h3>
+
+            <p>
+                Audio relaksasi untuk membantu membina keyakinan,
+                motivasi dan pemikiran positif terhadap masa depan.
+            </p>
+
+            <audio controls>
+
+                <source
+                    src="Audio_Terapi_Masalah_1.m4a"
+                    type="audio/mp4"
+                >
+
+                Pelayar anda tidak menyokong audio.
+
+            </audio>
+
+        </div>
+
+
+        <!-- AUDIO 2 -->
+
+        <div class="audio-card">
+
+            <div class="audio-icon">
+                🤝
+            </div>
+
+            <h3>
+                Masalah Sosial
+            </h3>
+
+            <p>
+                Audio relaksasi yang memberi fokus kepada
+                ketenangan diri dan keyakinan dalam situasi sosial.
+            </p>
+
+            <audio controls>
+
+                <source
+                    src="Audio_Terapi_Masalah_2.m4a"
+                    type="audio/mp4"
+                >
+
+                Pelayar anda tidak menyokong audio.
+
+            </audio>
+
+        </div>
+
+
+        <!-- AUDIO 3 -->
+
+        <div class="audio-card">
+
+            <div class="audio-icon">
+                💰
+            </div>
+
+            <h3>
+                Masalah Kewangan, Keadaan Kehidupan dan Pekerjaan
+            </h3>
+
+            <p>
+                Audio relaksasi untuk membantu pengguna menenangkan
+                fikiran ketika berhadapan dengan cabaran kehidupan
+                dan pekerjaan.
+            </p>
+
+            <audio controls>
+
+                <source
+                    src="Audio_Terapi_Masalah_3.m4a"
+                    type="audio/mp4"
+                >
+
+                Pelayar anda tidak menyokong audio.
+
+            </audio>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ============================= -->
+<!-- TENTANG KAMI -->
+<!-- ============================= -->
+
+<section id="about">
+
+    <div class="section-heading">
+
+        <p>TENTANG KAMI</p>
+
+        <h2>
+            Mengenali SerenityMind
+        </h2>
+
+    </div>
+
+
+    <div class="about-content">
+
+        <p>
+            SerenityMind ialah satu inovasi berasaskan hipnoterapi
+            yang dibangunkan bagi membantu individu mengurus tekanan,
+            meningkatkan kesejahteraan mental serta membina keseimbangan
+            emosi melalui pengalaman audio yang menenangkan.
+        </p>
+
+        <p>
+            Inovasi ini memberi peluang kepada pengguna untuk menjalani
+            sesi relaksasi secara kendiri pada bila-bila masa dan
+            di mana-mana sahaja.
+        </p>
+
+        <div class="about-highlight">
+
+            <div>
+                <span>🎧</span>
+                <h3>Audio Relaksasi</h3>
+            </div>
+
+            <div>
+                <span>🧠</span>
+                <h3>Kesejahteraan Minda</h3>
+            </div>
+
+            <div>
+                <span>🌿</span>
+                <h3>Ketenangan Emosi</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ============================= -->
+<!-- HUBUNGI -->
+<!-- ============================= -->
+
+<section id="contact">
+
+    <div class="contact-box">
+
+        <p class="hero-label">
+            HUBUNGI KAMI
+        </p>
+
+        <h2>
+            Bersedia untuk mencuba SerenityMind?
+        </h2>
+
+        <p>
+            Hubungi pasukan kami untuk mendapatkan maklumat
+            lanjut mengenai inovasi SerenityMind.
+        </p>
+
+
+        <div class="contact-details">
+
+            <p>
+                📍 Institut Pendidikan Guru Kampus Batu Lintang,
+                Kuching, Sarawak
+            </p>
+
+            <p>
+                📞 013-5337696 (Dr. Zuraini binti Idris)
+            </p>
+
+            <p>
+                📞 011-33310403 (Syaffiah)
+            </p>
+
+            <p>
+                📞 012-8683045 (Fazira)
+            </p>
+
+        </div>
+
+
+        <button onclick="startSession()">
+            🧘 Mulakan Sesi Relaksasi
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ============================= -->
+<!-- FOOTER -->
+<!-- ============================= -->
+
+<footer>
+
+    <h3>
+        SERENITYMIND
+    </h3>
+
+    <p>
+        Tenangkan Minda, Pulihkan Jiwa
+    </p>
+
+    <p>
+        © 2026 SerenityMind | Inovasi Hipnoterapi Digital
+    </p>
+
+</footer>
+
+
+</div>
+
+
+<!-- ============================= -->
+<!-- JAVASCRIPT -->
+<!-- ============================= -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+/* =========================================
+   SERENITYMIND PASSWORD SYSTEM
+========================================= */
+
+// CHANGE YOUR PASSWORD HERE
+const correctPassword = "SERENITY2026";
+
+
+/* =========================================
+   CHECK PASSWORD
+========================================= */
+
+function checkPassword() {
+
+    const passwordInput =
+        document.getElementById("passwordInput");
+
+    const passwordError =
+        document.getElementById("passwordError");
+
+    const password =
+        passwordInput.value.trim();
+
+
+    if (password === correctPassword) {
+
+        // Hide password screen
+        document.getElementById(
+            "passwordScreen"
+        ).style.display = "none";
+
+
+        // Show website
+        document.getElementById(
+            "websiteContent"
+        ).classList.remove("hidden");
+
+
+        // Remember access during this browser session
+        sessionStorage.setItem(
+            "serenityMindAccess",
+            "granted"
+        );
+
+
+        // Remove error
+        passwordError.textContent = "";
+
+
+    } else {
+
+        passwordError.textContent =
+            "❌ Kata laluan tidak betul. Sila cuba lagi.";
+
+        passwordInput.value = "";
+
+        passwordInput.focus();
+
+    }
+
+}
+
+
+/* =========================================
+   ENTER KEY
+========================================= */
+
+document
+    .getElementById("passwordInput")
+    .addEventListener(
+        "keydown",
+        function(event) {
+
+            if (event.key === "Enter") {
+
+                checkPassword();
+
+            }
+
+        }
+    );
+
+
+/* =========================================
+   CHECK EXISTING SESSION
+========================================= */
+
+window.addEventListener(
+    "load",
+    function() {
+
+        const access =
+            sessionStorage.getItem(
+                "serenityMindAccess"
+            );
+
+
+        if (access === "granted") {
+
+            document.getElementById(
+                "passwordScreen"
+            ).style.display = "none";
+
+
+            document.getElementById(
+                "websiteContent"
+            ).classList.remove("hidden");
+
+        }
+
+    }
+);
+
+
+/* =========================================
+   START RELAXATION SESSION
+========================================= */
+
+function startSession() {
+
+    document.getElementById(
+        "hipnoterapi"
+    ).scrollIntoView({
+        behavior: "smooth"
+    });
+
+}
+
+/* =========================================
+   PASSWORD SCREEN
+========================================= */
+
+.password-screen {
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 99999;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0f3d3e,
+            #176b68,
+            #2f8f83
+        );
+
+}
+
+
+.password-box {
+
+    width: 100%;
+
+    max-width: 430px;
+
+    padding: 45px 35px;
+
+    background: rgba(255, 255, 255, 0.97);
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow:
+        0 25px 70px rgba(0,0,0,0.25);
+
+}
+
+
+.lock-icon {
+
+    font-size: 55px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.password-box h1 {
+
+    margin-bottom: 5px;
+
+    color: #176b68;
+
+    letter-spacing: 2px;
+
+}
+
+
+.password-title {
+
+    color: #555;
+
+    font-weight: 600;
+
+}
+
+
+.password-box > p {
+
+    color: #777;
+
+    margin-bottom: 20px;
+
+}
+
+
+.password-box input {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: 2px solid #d8e5e3;
+
+    border-radius: 12px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    margin-bottom: 15px;
+
+    transition: 0.3s;
+
+}
+
+
+.password-box input:focus {
+
+    border-color: #2f8f83;
+
+    box-shadow:
+        0 0 0 3px rgba(47,143,131,0.12);
+
+}
+
+
+.password-box button {
+
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #176b68;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.password-box button:hover {
+
+    background: #0f4f4d;
+
+    transform: translateY(-2px);
+
+}
+
+
+#passwordError {
+
+    color: #d62828 !important;
+
+    font-size: 14px;
+
+    margin-top: 15px;
+
+}
+
+
+/* =========================================
+   HIDDEN CONTENT
+========================================= */
+
+.hidden {
+
+    display: none !important;
+
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+
+    min-height: 85vh;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 50px;
+
+    padding: 80px 8%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #edf8f6,
+            #ffffff
+        );
+
+}
+
+
+.hero-content {
+
+    max-width: 650px;
+
+}
+
+
+.hero-label {
+
+    color: #2f8f83;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.hero h2 {
+
+    font-size: clamp(40px, 6vw, 70px);
+
+    line-height: 1.05;
+
+    color: #143f3d;
+
+    margin-bottom: 25px;
+
+}
+
+
+.hero-content > p:not(.hero-label) {
+
+    font-size: 18px;
+
+    color: #596b69;
+
+    margin-bottom: 30px;
+
+}
+
+
+.hero-image img {
+
+    width: 100%;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,0.15);
+
+}
+
+
+.hero-button {
+
+    display: inline-block;
+
+    padding: 14px 25px;
+
+    border-radius: 12px;
+
+    background: #176b68;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+
+.hero-button:hover {
+
+    background: #0f4f4d;
+
+    transform: translateY(-2px);
+
+}
+
+
+/* =========================================
+   SECTION HEADINGS
+========================================= */
+
+.section-heading {
+
+    max-width: 750px;
+
+    margin: 0 auto 50px;
+
+    text-align: center;
+
+}
+
+
+.section-heading > p:first-child {
+
+    color: #2f8f83;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    font-size: 13px;
+
+}
+
+
+.section-heading h2 {
+
+    color: #143f3d;
+
+    font-size: 40px;
+
+    margin: 10px 0 15px;
+
+}
+
+
+.section-heading p:last-child {
+
+    color: #697977;
+
+}
+
+
+/* =========================================
+   MANUAL
+========================================= */
+
+#manual {
+
+    background: #ffffff;
+
+    padding: 90px 8%;
+
+}
+
+
+.manual-box {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 40px;
+
+    background: #f4faf8;
+
+    border-radius: 20px;
+
+    border: 1px solid #dcebe7;
+
+}
+
+
+.manual-box h3 {
+
+    color: #176b68;
+
+    margin-top: 30px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.manual-box h3:first-child {
+
+    margin-top: 0;
+
+}
+
+
+.manual-box li {
+
+    margin-bottom: 8px;
+
+    color: #536462;
+
+}
+
+
+.peringatan {
+
+    margin-top: 40px;
+
+    padding: 25px;
+
+    background: #fff7e6;
+
+    border-left: 5px solid #e9a227;
+
+    border-radius: 10px;
+
+}
+
+
+.peringatan h3 {
+
+    color: #9a6500;
+
+    margin-top: 0;
+
+}
+
+
+/* =========================================
+   AUDIO SECTION
+========================================= */
+
+#hipnoterapi {
+
+    padding: 90px 8%;
+
+    background: #eef8f6;
+
+}
+
+
+.audio-container {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+}
+
+
+.audio-card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.07);
+
+    transition: 0.3s;
+
+}
+
+
+.audio-card:hover {
+
+    transform: translateY(-6px);
+
+}
+
+
+.audio-icon {
+
+    font-size: 40px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.audio-card h3 {
+
+    color: #176b68;
+
+    margin-bottom: 12px;
+
+}
+
+
+.audio-card p {
+
+    color: #697977;
+
+    margin-bottom: 20px;
+
+}
+
+
+.audio-card audio {
+
+    width: 100%;
+
+}
+
+
+/* =========================================
+   ABOUT
+========================================= */
+
+#about {
+
+    padding: 90px 8%;
+
+}
+
+
+.about-content {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    text-align: center;
+
+}
+
+
+.about-content > p {
+
+    color: #5d6c6a;
+
+    margin-bottom: 20px;
+
+    font-size: 17px;
+
+}
+
+
+.about-highlight {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+
+    margin-top: 40px;
+
+}
+
+
+.about-highlight div {
+
+    padding: 25px;
+
+    background: #f4faf8;
+
+    border-radius: 15px;
+
+}
+
+
+.about-highlight span {
+
+    font-size: 35px;
+
+}
+
+
+.about-highlight h3 {
+
+    margin-top: 10px;
+
+    color: #176b68;
+
+}
+
+
+/* =========================================
+   CONTACT
+========================================= */
+
+#contact {
+
+    padding: 90px 8%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #176b68,
+            #2f8f83
+        );
+
+}
+
+
+.contact-box {
+
+    max-width: 850px;
+
+    margin: auto;
+
+    text-align: center;
+
+    color: white;
+
+}
+
+
+.contact-box .hero-label {
+
+    color: #c8eee8;
+
+}
+
+
+.contact-box h2 {
+
+    font-size: 45px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.contact-box > p {
+
+    color: #e0f5f2;
+
+}
+
+
+.contact-details {
+
+    margin: 30px auto;
+
+}
+
+
+.contact-details p {
+
+    margin: 8px;
+
+    color: #e8f7f5;
+
+}
+
+
+.contact-box button {
+
+    padding: 15px 28px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: white;
+
+    color: #176b68;
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.contact-box button:hover {
+
+    background: #e8f7f5;
+
+    transform: translateY(-2px);
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 800px) {
+
+    .hero {
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+    }
+
+
+    .hero-image {
+
+        order: -1;
+
+    }
+
+
+    .audio-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .about-highlight {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .password-box {
+
+        padding: 35px 25px;
+
+    }
+
+
+    .section-heading h2 {
+
+        font-size: 32px;
+
+    }
+
+
+    .contact-box h2 {
+
+        font-size: 35px;
+
+    }
+
+}
